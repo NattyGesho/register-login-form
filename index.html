@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+    <title>Register/Login Form</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="form">
+        <div class="btn">
+          <button id="signUpBtn" class="signUpBtn">Sign Up</button>
+          <button id="loginBtn" class="loginBtn">Log In</button>
+        </div>
+        <!-- Register Form -->
+        <form id="signUp" class="signUp">
+          <div class="form-group">
+            <input
+              type="text"
+              name="username"
+              id="username"
+              placeholder="Username"
+            />
+            <i class="fas fa-check-circle"></i>
+            <i class="fas fa-exclamation-circle"></i>
+            <small>This is an error</small>
+          </div>
+          <div class="form-group">
+            <input type="email" name="email" id="email" placeholder="Email" />
+            <i class="fas fa-check-circle"></i>
+            <i class="fas fa-exclamation-circle"></i>
+            <small>This is an error</small>
+          </div>
+          <div class="form-group">
+            <input
+              type="password"
+              name="password"
+              id="password"
+              placeholder="Password"
+            />
+            <i class="fas fa-check-circle"></i>
+            <i class="fas fa-exclamation-circle"></i>
+            <small>This is an error</small>
+          </div>
+          <div class="form-group">
+            <input
+              type="password"
+              name="confirmPassword"
+              id="confirmPassword"
+              placeholder="Confirm Password"
+            />
+            <i class="fas fa-check-circle"></i>
+            <i class="fas fa-exclamation-circle"></i>
+            <small>This is an error</small>
+          </div>
+          <div class="form-group">
+            <div class="checkBox">
+              <input type="checkbox" name="checkbox" id="checkbox" />
+              <span id="check" class="text"
+                >I agree with <a href="#">term & conditions.</a></span
+              >
+            </div>
+          </div>
+          <div class="form-group">
+            <button id="registerBtn" class="btnSubmit">Register</button>
+          </div>
+        </form>
+
+        <form id="login" class="login">
+          <p class="loginError"></p>
+          <div class="form-group">
+            <input
+              type="email"
+              name="email"
+              id="emailLogin"
+              placeholder="Email"
+            />
+          </div>
+          <div class="form-group">
+            <input
+              type="password"
+              name="password"
+              id="passwordLogin"
+              placeholder="Password"
+            />
+          </div>
+          <div class="form-group">
+            <div class="checkBox">
+              <input type="checkbox" name="checkbox" id="checkboxLogin" />
+              <span class="text">Keep me signed in on this device.</span>
+            </div>
+          </div>
+          <div class="form-group">
+            <button id="signinBtn" class="btnSubmit">Sign In</button>
+          </div>
+        </form>
+      </div>
+
+      <div id="content">
+        <div class="content">
+          <h1>Welcome to our website</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque,
+            sint. Numquam, sit repellendus. Doloremque laboriosam quidem, omnis
+            quis ea, alias eaque esse rerum accusamus nihil vero sed incidunt
+            repellendus cum eos possimus totam libero? Modi maiores sint ex,
+            provident, quaerat sunt, esse dignissimos ut sit quia libero cumque?
+            Illum, consequuntur voluptas aliquid ipsa maiores odio ipsum
+            voluptatem voluptate alias laboriosam. Laudantium, reiciendis
+            delectus adipisci porro tenetur ratione voluptates repellendus,
+            dignissimos eos, deserunt iste minus! Ratione a, repudiandae
+            blanditiis vitae aspernatur placeat quas id asperiores inventore,
+            labore aliquid! Nisi, delectus fugit? Quasi sed nulla consectetur a
+            ad magni ea, iure velit!
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
